@@ -54,63 +54,32 @@ MonoBehaviour:
     - model: {fileID: 8926484042661617000}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661616903}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616905}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616864}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616871}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616892}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616898}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616808}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616810}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616829}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616833}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616843}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616847}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616920}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616922}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616924}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616926}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616930}
-      id: 0
-      isStickyNote: 0
   stickyNoteInfos:
   - title: Title
     position:
       serializedVersion: 2
       x: -3255
       y: 1278
+      width: 100
+      height: 100
+    contents: type something here
+    theme: Classic
+    textSize: Small
+  - title: Title
+    position:
+      serializedVersion: 2
+      x: 3506
+      y: 1597
+      width: 100
+      height: 100
+    contents: type something here
+    theme: Classic
+    textSize: Small
+  - title: Title
+    position:
+      serializedVersion: 2
+      x: 2596
+      y: 4100
       width: 100
       height: 100
     contents: type something here
@@ -133,7 +102,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: Slimb Bomb 1
+  m_Name: Slimb Bomb
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -208,7 +177,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slimb Bomb 1
+  m_Name: Slimb Bomb
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -1520,8 +1489,8 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 589, y: 1874}
-  m_UICollapsed: 0
-  m_UISuperCollapsed: 1
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661615948}
   - {fileID: 8926484042661615949}
@@ -7255,7 +7224,7 @@ MonoBehaviour:
     - rid: 1193688371952877865
       type: {class: ParticleShadingShaderGraph, ns: UnityEditor.VFX, asm: Unity.VisualEffectGraph.Editor}
       data:
-        shaderGraph: {fileID: 4333940904281232215, guid: 178440804e6cb1a42a8a0f0bfb953331, type: 3}
+        shaderGraph: {fileID: 4333940904281232215, guid: 0c2b652927efc154493fc1d8b82e8149, type: 3}
         materialSettings:
           m_PropertyNames:
           - _DstBlend
@@ -7806,7 +7775,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3398, y: 4061}
+  m_UIPosition: {x: 3558, y: 4083}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots: []
@@ -7967,7 +7936,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3413, y: 3879}
+  m_UIPosition: {x: 3543, y: 3829}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8635,7 +8604,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3116, y: 3404}
+  m_UIPosition: {x: 2862, y: 3295}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots: []
@@ -8796,7 +8765,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2825, y: 3173}
+  m_UIPosition: {x: 2938, y: 3187}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -9130,7 +9099,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3135, y: 3187}
+  m_UIPosition: {x: 3116, y: 3079}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -9226,7 +9195,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3369, y: 3295}
+  m_UIPosition: {x: 3369, y: 3045}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -9353,7 +9322,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3549, y: 3389}
+  m_UIPosition: {x: 3601, y: 3092}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -9529,7 +9498,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3369, y: 3409}
+  m_UIPosition: {x: 3415, y: 3157}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
