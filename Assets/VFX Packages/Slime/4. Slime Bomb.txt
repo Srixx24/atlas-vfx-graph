@@ -1,0 +1,7 @@
+4. Slime Bomb
+
+This VFX creates a slime bomb featuring a customizable color. It closely follow the tutorial by Unity on decals and utilizes assets from Creepy Cat for the environment.
+
+Nodes used in creation:
+
+This effect use multiple systems to create the sci-fi look of slime spraying on surfaces and sticking to it. With the spray system it creates the particles coming from the center, it projects them outwards with velocity from direction/speed, sets up the color and size, and allows for a set lifetime. With the output in this system I created a shader graph to incorporate the look of slime and refraction, this shader is used through out the effect to keep the slime look. In the update, it call the a GPU event to lay down the decals at the approximated point of collision we get from the depth buffer in the main particle system. Over in a separate system the center is created for the spray to "spawn from". With the same Shader and the use of the flipbook effect I was able to make the center seem as though it was spinning and shaking off the spray particles and at the same time give it some texture and a neat look. 

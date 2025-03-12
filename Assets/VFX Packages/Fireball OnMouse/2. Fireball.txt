@@ -1,0 +1,7 @@
+2. Fireball
+
+This VFX creates a fireball that follow the users mouse to use in any Unity scene. Featuring a customizable tail length.
+
+Nodes used in creation:
+
+This system uses a ribbon/strip effect and a position sequential to create a vibrate stream of fire like particles. I used two outputs to give the fire a bright and trailing head and the second to provide a long beautiful steaming tail. In the update, I called a GPU event to allow a set of nodes to control some embers/sparks coming from the fireball. With the flipbook feature I was able to give the fire in the sparks a nice flicker and realistic look. All of this was given life and motion with a simple C# script allowing the render material to follow the mouse position.

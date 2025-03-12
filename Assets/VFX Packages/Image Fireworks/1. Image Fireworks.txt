@@ -1,0 +1,7 @@
+1. Image Fireworks
+
+This VFX creates image fireworks to use in any Unity scene. Featuring a customizable tail length and cute images. 
+
+Nodes used in creation:
+
+For the launch particle, the set color, shape and speed/direction gives each firework a unique color and set starting place for all three fireworks. In the update particle we call over to the burst which inherits color and position from the launch particles.  From there it creates a point cache from the launch die position to create the firework image. Adjusting the point count and seed was critical here. After we allow for the firework images to die off in there lifetime and assist with a color over life fade for the realistic look of fireworks. 

@@ -1,0 +1,7 @@
+3. Smoke and Wind
+
+This VFX creates a soothing campfire featuring a warm flicking flame, soft windy breeze, and a billowing plume of smoke. All can be managed with subgraphs to create your perfect cozy atmosphere.
+
+Nodes used in creation:
+
+This system uses a basic loop and starts with the smoke plume and  it projects them upwards with velocity from direction/speed, sets up the color and size, and allows for a set lifetime. With the flipbook feature, the smoke is given life and realistic motion. In the update, I called three GPU events to handle the flames, embers, and wind. The embers and the flames are very similar in nodes used; relying on flipbook, blend velocity, velocity from speed/direction, and angle rotations. What makes them unique is their life time and the way they spawn with the set position shape node. With minor adjustments two very different particles are provided. With the wind feature I used the force node to effect the direction smoke and flames move over time. All of this put together gives life to realistic campfire ready to be used in any unity scene.

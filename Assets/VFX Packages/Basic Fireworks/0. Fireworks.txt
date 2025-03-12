@@ -1,0 +1,7 @@
+0. Fireworks
+
+This VFX creates dazzling fireworks with to use in any Unity scene. Featuring a fade out time and a burst size adjustable setting, you can customize these captivating fireworks to your liking. 
+
+Nodes used in creation:
+
+For the launch particle, the set color, shape and speed/direction gives each firework a unique color and random starting place for launch. In the update particle we call over to the burst which inherits color and position from the launch particles.  From there it creates a sphere of particles on the launch die to create the firework effect. Gravity, linear drag, and size over life nodes allow for the realistic look of fireworks. 
