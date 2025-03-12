@@ -26,12 +26,9 @@
 
 ---
 
-
-
-
-
 <br> 
 
+<center> <p>A sample of my campfire</p> </center>
 
 https://github.com/user-attachments/assets/c1134836-5f45-4396-b9f6-197740e93e3b
 
