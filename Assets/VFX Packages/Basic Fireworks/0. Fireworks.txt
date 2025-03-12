@@ -1,6 +1,6 @@
 0. Fireworks
 
-This VFX creates dazzling fireworks with to use in any Unity scene. Featuring a fade out time and a burst size adjustable setting, you can customize these captivating fireworks to your liking. 
+This VFX creates dazzling fireworks to use in any Unity scene. Featuring a fade out time and a burst size adjustable setting, you can customize these captivating fireworks to your liking. 
 
 Nodes used in creation:
 
