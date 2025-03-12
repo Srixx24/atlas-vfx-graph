@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "atlas-vfx-graph.sln"
+    "dotnet.defaultSolution": "VFXGraph.sln"
 }
