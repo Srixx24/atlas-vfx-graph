@@ -6,9 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+    path: Assets/VFX Packages/Main Menu/Main Menu.unity
+    guid: 5c146e99cc56d614187f2d1a5e2aaf10
+  - enabled: 1
+    path: Assets/VFX Packages/Basic Fireworks/Sample Scene/0. Fireworks.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/VFX Packages/Image Fireworks/Sample Scene/1. Graphics Fireworks.unity
+    guid: 9b0ec8d650e69e84284f13f156192f8d
+  - enabled: 1
+    path: Assets/VFX Packages/Fireball OnMouse/Sample Scene/2. Fireball.unity
+    guid: 9454cac9142dc4042b8559d7ec349e36
+  - enabled: 1
+    path: Assets/VFX Packages/Campfire/Sample Scene/3. Smoke and Wind.unity
+    guid: 1733d7916a63715418359610f04eb7c0
+  - enabled: 1
+    path: Assets/VFX Packages/Slime/Sample Scene/4. Slime Bomb.unity
+    guid: bb461cad1b3cf9a478df8da3278a8243
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53,
-      type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
