@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VFXGraph.sln"
+    "dotnet.defaultSolution": "VFXGraph Packages.sln"
 }
