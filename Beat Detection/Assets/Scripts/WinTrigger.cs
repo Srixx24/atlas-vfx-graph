@@ -9,6 +9,7 @@ public class WinTrigger : MonoBehaviour
     public GameObject winCanvas;
     public TextMeshProUGUI WinTime;
     
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -21,10 +22,7 @@ public class WinTrigger : MonoBehaviour
     private void StopTimer()
     {
         if (timerScript != null)
-        {
             timerScript.Win();
-            
-        }
     }
 
     private void ActivateWinCanvas()
@@ -33,12 +31,8 @@ public class WinTrigger : MonoBehaviour
         {
             winCanvas.SetActive(true);
             if (timerScript != null)
-            {
                 if (WinTime != null)
-                {
                     WinTime.text = timerScript.GetWinTime();
-                }
-            }
         }
     }
 }

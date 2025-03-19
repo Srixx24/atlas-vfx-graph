@@ -4,27 +4,22 @@ public class TimerTrigger : MonoBehaviour
 {
     private Timer timerScript;
     private bool timerStarted = false;
-    private bool playerContact = false;
 
     private void Start()
     {
-        if (timerScript == null)
-        {
-            timerScript = GetComponent<Timer>();
-        }
+        timerScript = GetComponent<Timer>();
 
         if (timerScript != null)
         {
             timerScript.enabled = false;
+            timerScript.TimerText.gameObject.SetActive(false);
         }
     }
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            playerContact = true;
-        }
+            HoldTimer();
     }
 
     private void OnTriggerExit(Collider other)
@@ -32,7 +27,7 @@ public class TimerTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             StartTimer();
-            playerContact = false;
+            timerScript.TimerText.gameObject.SetActive(true);
         }
     }
     private void StartTimer()
@@ -41,6 +36,15 @@ public class TimerTrigger : MonoBehaviour
         {
             timerScript.enabled = true;
             timerStarted = true;
+        }
+    }
+
+    private void HoldTimer()
+    {
+        if (timerStarted && timerScript != null)
+        {
+            timerScript.enabled = false;
+            timerStarted = false;
         }
     }
 }

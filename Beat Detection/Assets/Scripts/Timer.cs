@@ -7,13 +7,12 @@ public class Timer : MonoBehaviour
     public Text WinTime;
     private float currentTime;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         currentTime = 0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         currentTime += Time.deltaTime;

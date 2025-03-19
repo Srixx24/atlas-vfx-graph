@@ -7,6 +7,7 @@ public class Main : MonoBehaviour
     public Button playButton;
     public Button quitButton;
 
+
     void Start()
     {
         playButton.onClick.AddListener(PlayGame);

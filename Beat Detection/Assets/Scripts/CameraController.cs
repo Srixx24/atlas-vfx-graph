@@ -2,22 +2,16 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Player object
     public GameObject player;
-    // Camera distance
-    private Vector3 distance;
+    private Vector3 distance; // Camera distance
 
     // Camera rotation sensitivity
     public float mouseSensitivity = 2f;
     private float cameraRotationX = 0f;
     private float cameraRotationY = 0f;
     private float maxCameraRotationX = 90f;
-
     private float minCameraY;
-
     public Vector3 startPosition;
-
-    // Inverted camera
     public bool isInverted = false;
 
 
@@ -34,7 +28,6 @@ public class CameraController : MonoBehaviour
         RotateCameraClick();
     }
 
-    // Called once per frame after all updates are complete
     void LateUpdate()
     {
         // Maintain offset distance
@@ -64,13 +57,9 @@ public class CameraController : MonoBehaviour
 
         // Rotate the camera on the X-axis (look up/down)
         if (isInverted)
-        {
             cameraRotationX += mouseY;
-        }
         else
-        {
             cameraRotationX -= mouseY;
-        }
 
         cameraRotationX = Mathf.Clamp(cameraRotationX, -maxCameraRotationX, maxCameraRotationX);
         transform.localRotation = Quaternion.Euler(cameraRotationX, cameraRotationY, 0f);
@@ -87,16 +76,12 @@ public class CameraController : MonoBehaviour
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
             if (isInverted)
-            {
                 cameraRotationX += mouseY;
-            }
             else
-            {
                 cameraRotationX -= mouseY;
-            }
+
             cameraRotationX = Mathf.Clamp(cameraRotationX, -maxCameraRotationX, maxCameraRotationX);
             cameraRotationY += mouseX;
-
             transform.localRotation = Quaternion.Euler(cameraRotationX, cameraRotationY, 0f);
         }
     }
