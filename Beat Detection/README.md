@@ -4,7 +4,13 @@
 ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
 <br>
 
-<h2>This project utilizes Unity 6 with HDRP to explore the capabilities of beat detection by analyzing audio clips and triggering gameplay events based on detected beats.</h2>
+<h2>This project utilizes Unity 6 with HDRP to explore the capabilities of beat detection by analyzing audio clips and triggering gameplay events based on detected beats. </h2>
+
+<br>
+
+<h3>I developed a system that synchronizes audio track frequencies to cloud systems in the game, creating a dynamic sky that moves with the audio tracks. Additionally, I've made a trigger response tied to the player's climbing progress. To achieve this, I applied the audio pitches to in-game objects, leveraging beat-detection technology to create interactive 'step stones' that track the player's progress in the game. This allows for a seamless and immersive experience, where the visual and auditory elements are linked, enhancing the overall gameplay. </h3>
+
+---
 
 <center> <h3>Project Goals</h3> </center>
 <ul>
