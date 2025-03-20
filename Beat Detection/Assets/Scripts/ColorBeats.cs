@@ -29,7 +29,7 @@ public class ColorBeats : MonoBehaviour
             transform.localScale = new Vector3(transform.localScale.x, (BeatDetection.freqBand[range] * scaleMultiplier) * rangeScale, transform.localScale.z);
             Color color = new Color(BeatDetection.audioBandBuff[range], BeatDetection.audioBandBuff[range], BeatDetection.audioBandBuff[range]);
             material.SetColor("_EmissionColor", color);
-            Debug.Log($"Emission Color: {color}");
+            //Debug.Log($"Emission Color: {color}");
         }          
     }
 }
