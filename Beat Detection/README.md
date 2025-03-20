@@ -2,9 +2,13 @@
 
 
 ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
-<br>
 
-<h2>This project utilizes Unity 6 with HDRP to explore the capabilities of beat detection by analyzing audio clips and triggering gameplay events based on detected beats. </h2>
+<br>
+<p align="center">
+✨ Designed, produced, and managed by me, <a href="https://github.com/Srixx24/">Jackie Lovins</a> ✨
+</p>
+
+<h1>This project utilizes Unity 6 with HD render pipeline to explore the capabilities of beat detection by analyzing audio clips and triggering gameplay events based on detected beats. </h1>
 
 <br>
 
